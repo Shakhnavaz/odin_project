@@ -107,8 +107,54 @@ body {
 
 .section__two {
 	color: #e5e7eb;
-	width: 1800px;
-	height: 625px;
+	height: 550px;
+
 }
 
+.section__two .wrapper {
+	/* display: flex;
+	justify-content: center; */
+}
 
+.title {
+	padding: 50px;
+	font-size: 36px;
+	font-weight: 800;
+	color: #1f2937;
+}
+
+.wrapper .title {
+	display: flex;
+	justify-content: center;
+}
+
+.illustrations {
+	display: flex;
+	justify-content: center;
+}
+
+.card {
+	margin: 0 35px;
+	width: 210px;
+	height: 300px;
+	text-align: center;
+}
+
+.text {
+	color: #1f2937;
+	padding: 9px;
+}
+
+.sub__image {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #3882f6;
+	border-radius: 20px;
+}
+
+/* ---------------- section three ----------------- */
+
+.section__three {
+	background-color:lightgray;;
+	height: 535px;
+}
